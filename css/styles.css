@@ -540,7 +540,8 @@ address {
 }
 
 .mailing-footer{
-  margin: 72px 215px 94px 93px;
+  display: block;
+  margin-left: auto;
 }
 
 .invitation-list-icon{
@@ -562,6 +563,12 @@ address {
 
 .subscribe-list{
   display: block;
+}
+
+.subscribe-field{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .subscribe-mail{
@@ -629,7 +636,7 @@ margin-left: 12px;
   border-width: 0;
   border-radius: 4px;
 
-  
+  margin-left: 12px;
 }
 
 .subscribe-icon {
