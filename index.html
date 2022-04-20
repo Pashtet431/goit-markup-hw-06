@@ -385,7 +385,19 @@
             </div>
            <div class="mailing-footer">
                 <h3 class="footer-invitation">Подпишитесь на рассылку</h3>
-                <ul class="subscribe-list list">
+
+                <form class="subscribe-list list list">
+                    <label>
+                        <input type="email" name="email" lang="en" placeholder="E-mail" />
+                    </label>
+
+                
+                    <button type="submit" class="subscribe-btn">Подписаться</button>
+                </form>
+
+
+
+                <!-- <ul class="subscribe-list list">
                     <li class="subscribe-field">
                         <textarea class="subscribe-mail" lang="en" placeholder="E-mail"></textarea>
                     </li>
@@ -396,10 +408,11 @@
                             </svg>
                         </button>
                     </li>
-                </ul>
+                </ul> -->
            </div>
         </div>        
     </footer>    
+
 <!-- Бекдроп -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
@@ -438,7 +451,7 @@
                         </svg>            
                     </span>
                 </label>
-                <label class="contact-form-field">
+                <label class="contact-form-comment">
                     <span class="form-names">Комментарий</span> 
                     <textarea class="contact-form-message" placeholder="Введите текст"></textarea>
                 </label>
